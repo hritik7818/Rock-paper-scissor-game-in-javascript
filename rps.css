@@ -1,0 +1,70 @@
+* {
+  background-color: rgb(79, 178, 218);
+}
+#heading {
+  text-align: center;
+
+  font-size: 22px;
+}
+#gameInfo {
+  width: 619px;
+  height: 283px;
+  margin-left: 312px;
+
+  border: 7px solid black;
+}
+#pScore {
+  font-size: 22px;
+  margin-left: 68px;
+  font-weight: bold;
+}
+#playerChoice {
+  margin-left: 40px;
+}
+#computerChoice {
+  margin-left: 115px;
+}
+#cScore {
+  padding-left: 163px;
+  font-size: 22px;
+  font-weight: bold;
+}
+#rock {
+  margin-left: 250px;
+}
+#paper {
+  margin-left: 52px;
+}
+#scissor {
+  margin-left: 68px;
+}
+#rock > img {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+#paper > img {
+  border: 2px solid black;
+  padding: 11px;
+}
+#scissor > img {
+  border: 2px solid black;
+  padding: 20px;
+}
+img {
+  border: 2px solid black;
+  padding: 11px;
+}
+#wonInfo {
+  text-align: center;
+  margin-top: 11px;
+  font-size: 22px;
+}
+#turnInfo {
+  margin-top: 6px;
+}
+#choose {
+  padding: 0px;
+  text-align: center;
+  font-size: 22px;
+}

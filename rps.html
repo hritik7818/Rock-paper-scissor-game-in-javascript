@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="rps.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <h1 id="heading">Welcome to the Rock Paper Scissor Game</h1>
+    <div id="gameInfo">
+        <div>
+            <h2 id="wonInfo">Take Your Turn</h2>
+            <span id="pScore">Player Score : <span id="playerScore"></span></span>
+            <span id="cScore">Computer Score : <span id="computerScore"></span></span>
+        </div>
+        <div id="turnInfo">
+            <span id="playerChoice"></span>
+            <span id="computerChoice"></span>
+        </div>
+    </div>
+    <div id="turn">
+        <h2 id="choose">Choose One </h2>
+        <span id="rock" class="turn"><img src="rock_left_hand.jpg" alt="rock"></span>
+        <span id="paper" class="turn"><img src="paper_left_hand.jpg" alt="paper"></span>
+        <span id="scissor" class="turn"><img src="scissor_left_hand.jpg" alt="scissor"></span>
+    </div>
+    <script src="rps.js"></script>
+</body>
+
+</html>
